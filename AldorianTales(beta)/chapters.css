@@ -1,0 +1,29 @@
+@import url(../styles.css);
+
+#top {
+    background: url("top.png") no-repeat;
+    background-position: 0% 15%;
+    background-size: 100%;
+}
+
+.box {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+}
+
+.chapters {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    width: 15em;
+}
+
+.chapters a:hover {
+    text-decoration: underline overline wavy;
+}

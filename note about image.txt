@@ -1,0 +1,1 @@
+The code is set to png, so that's why I used png files. But the image themselves aren't loseless and was initially compressed to jpg.

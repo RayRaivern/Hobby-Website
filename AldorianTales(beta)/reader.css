@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Goudy+Bookletter+1911&family=Poor+Story&family=Rochester&family=UnifrakturMaguntia&display=swap'); /* This imports the google fonts I have used */
+
+body {
+    user-select: none;
+    background: url('top.png') fixed;
+    background-size: 100%;
+}
+
+.box {
+    border: #FDFCD3 solid 0.3em;
+    background: rgba(0, 0, 0, 0.603);
+    color: #FDFCD3;
+    padding: 2em 2em 2em 2em;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 5% 10%;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.box h2 {
+    text-indent: 5em;
+}
+
+.box2 {
+    margin: 5% 10%;
+    text-align: justify;
+    text-indent: 2.5em;
+    line-height: 1.4em;
+    font-family: 'EB Garamond', serif;
+}
+
+.box2::first-letter {
+    font-size: 2em;
+}
+
+a {
+    flex: 1;
+    border: #FDFCD3 solid;
+    background: #fdfcd34f;
+    color: inherit;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 2em;
+    color: #FDFCD3;
+    border-bottom: dashed;
+    padding-bottom: 0.3em;;
+}

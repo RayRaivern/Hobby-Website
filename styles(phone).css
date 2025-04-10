@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Goudy+Bookletter+1911&family=Poor+Story&family=Rochester&family=UnifrakturMaguntia&display=swap'); /* This imports the google fonts I have used */
+
+body {
+    background: rgba(253, 255, 146, 0.473);
+    user-select: none;
+}
+
+.star{
+    color: transparent;
+    background: url('star.png');
+    background-attachment: fixed;
+    background-color: #464646; /*place holder color, if image takes too long to load */
+    background-size: 2em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+#top {
+    background: url('top.png') no-repeat;
+    background-size: fill;
+    background-position: 0% 20%;
+    padding: 10em 0em 0em 2em;
+    border: #e8be53 0.8em;
+    border-style: hidden outset hidden outset;
+    border-top-right-radius: 2em 10%;
+    border-bottom-right-radius: 2em 10%;
+}
+
+h1 {
+    font-size: 25vw;
+}
+
+h2 {
+    font-size: 16vw;
+    border: #e8be53;
+    border-style: hidden hidden dashed hidden;
+}
+
+.box {
+    border: #e8be53 solid;
+    background: white;
+    padding: 1em 1em 1em 1em;
+    font-size: 6vw;
+    text-align: justify;
+    font-family: 'Rochester', cursive;
+    overflow: scroll;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+.list {
+    font-family: 'Poor Story', cursive;
+    /* The texts have been colored independently using styles function */
+}
+
+.container {
+    font-family: 'Poor Story', cursive;
+    font-size: 6vw;
+    overflow: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+#contents {
+    font-size: 8vw;
+}
+
+.select {
+    user-select: text;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: transparent;
+    background: url('star.png');
+    background-attachment: fixed;
+    background-color: #464646; /*place holder color, if image takes too long to load */
+    background-size: 1em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+#aldorian {
+    font-family: 'Poor Story', cursive;
+    margin-left: 1em;
+    color: blueviolet;
+}
+
+#aldorian:hover {
+    text-decoration: underline overline dotted;
+}
+
+#aldorian2 {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+@-moz-document url-prefix() {
+    .star {
+      background-attachment: local;
+    }
+    .container a:hover {
+        background-attachment: local;
+    }
+}

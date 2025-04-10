@@ -1,0 +1,30 @@
+@import url("../styles(phone).css");
+
+#top {
+    background: url("top.png") no-repeat;
+    background-position: 35% 15%;
+}
+
+h1 {
+    font-size: 22vw;
+}
+
+.box {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3em;
+    font-size: 5vw;
+}
+
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.chapters {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 7vw;
+    line-height: 1.5em;
+}
+
+.chapters a:hover {
+    text-decoration: underline overline wavy;
+}
